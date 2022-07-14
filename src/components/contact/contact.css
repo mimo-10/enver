@@ -1,0 +1,37 @@
+.contact {
+    display: flex;
+    background-color: rgba(30, 30, 32, 0.8);
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 7rem;
+}
+
+.contact-h3 {
+    font-size: 2rem;
+}
+
+.shape1 {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+
+.shape2 {
+    position: absolute;
+    right: 3rem;
+    bottom: 2rem;
+    transform: rotate(155deg);
+}
+
+@media screen and (max-width: 1100px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact-h3 {
+        text-align: center;
+    }
+}

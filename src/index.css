@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;500;700;800&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-main: #5454D4;
+    --color-alt: #FBA81C;
+    --container-lg: 2.5rem 7rem;
+    --container-sm: 2.5rem 2rem;
+}
+
+.container {
+    margin: var(--container-lg);
+}
+body {
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    overflow-y: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.app {
+    position: relative;
+    overflow-x: hidden;
+}
+.app_el1 {
+    width: 65%;
+    height: 440px;
+    position: absolute;
+    top: 10px;
+    left: -250px;
+    z-index: 0;
+    filter: blur(195px);
+    transform: rotate(45deg);
+    border-radius: 300px;
+    background-color: var(--color-main) ;
+    opacity: 0.4;
+}
+
+.app_el2 {
+    width: 65%;
+    height: 440px;
+    position: absolute;
+    top: 45vh;
+    right: -120px;
+    z-index: 0;
+    filter: blur(195px);
+    transform: rotate(135deg);
+    border-radius: 300px;
+    background-color: var(--color-alt) ;
+    opacity: .3;
+}
+
+.app_el3 {
+    width: 65%;
+    height: 440px;
+    position: absolute;
+    top: 145vh;
+    left: -120px;
+    z-index: 0;
+    filter: blur(195px);
+    transform: rotate(135deg);
+    border-radius: 300px;
+    background-color: var(--color-alt) ;
+    opacity: .3;
+}
+
+.app_el4 {
+    width: 65%;
+    height: 440px;
+    position: absolute;
+    top: 180vh;
+    right: -250px;
+    z-index: 0;
+    filter: blur(195px);
+    transform: rotate(45deg);
+    border-radius: 300px;
+    background-color: var(--color-main) ;
+    opacity: 0.4;
+}
+
+
+.app_el5 {
+    width: 65%;
+    height: 440px;
+    position: absolute;
+    top: 250vh;
+    left: -150px;
+    z-index: 0;
+    filter: blur(195px);
+    transform: rotate(145deg);
+    border-radius: 300px;
+    background-color: var(--color-main) ;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: var(--container-sm);
+    }
+}

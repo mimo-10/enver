@@ -1,0 +1,30 @@
+
+
+.sub-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-service__icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+.sub-service__title {
+    font-weight: 500;
+}
+.sub-service__icon:first-child {
+    font-size: 29px;
+    margin: 0;
+}
+
+.sub-service__content {
+    font-weight: 300;
+    text-align: center;
+    margin:0;
+}
