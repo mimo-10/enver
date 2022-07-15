@@ -5,11 +5,15 @@ import {images} from "../../constants/images.js"
 const Navbar = () => {
     const [overlay, setOverlay] = useState(false)
     const [menu, setMenu] = useState("#")
+    const body = document.getElementById("body")
+
     function closeOverlay() {
         setOverlay(false)
+        body.style.overflowY = "auto"
     }
     function toggleOverlay() {
         setOverlay(true)
+        body.style.overflowY = "hidden"
     }
 
     function menuClick(id, overl) {

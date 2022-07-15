@@ -14,7 +14,9 @@ const Header = () => {
               Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.
             </p>
             <button className='header__info-btn'>
-              our services 
+              <a href="#services">
+                our services
+              </a>
               <BsArrowBarRight />
             </button>
         </aside>

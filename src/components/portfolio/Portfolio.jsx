@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Navigation, Pagination, Autoplay, Mousewheel, Keyboard } from "swiper";
+import { Navigation, Pagination, Autoplay, Mousewheel, Keyboard} from "swiper";
 
 const Portfolio = () => {
   const slides = data.portfolio.map((portf, index)=> {
@@ -26,6 +26,7 @@ const Portfolio = () => {
         Our Awesome Portofolio
       </h2>
       <Swiper
+        // centeredSlides={true}
         cssMode={true}
         slidesPerView={1}
         navigation={true}
@@ -33,6 +34,7 @@ const Portfolio = () => {
         mousewheel={true}
         autoplay={true}
         keyboard={true}
+        loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="mySwiper"
       >

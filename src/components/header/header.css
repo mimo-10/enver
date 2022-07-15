@@ -36,11 +36,14 @@
     border: none;
     background-color: var(--color-main);
     padding: 1rem 1.5rem;
-    color: aliceblue;
     font-size: 1.1rem;
     cursor: pointer;
     text-transform: capitalize;
     transition: 350ms;
+}
+.header__info-btn a {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .header__info-btn:hover{

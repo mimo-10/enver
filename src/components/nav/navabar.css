@@ -78,7 +78,7 @@
         position: fixed;
         scrollbar-color: transparent;
         width: 102%;
-        height: 100%;
+        height: 102%;
         top: 0;
         left: -2px;
         background: url("../../assests/bg.png");
@@ -107,6 +107,10 @@
     }
 }
 
+
+.toggled {
+    overflow-y: hidden;
+}
 @media screen and (max-width: 1000px) {
     .navbar__items-btn {
         padding-inline: 0.5rem;
